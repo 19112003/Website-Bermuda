@@ -1,0 +1,131 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgba(0, 0, 51, 0.8);
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 2s ease;
+}
+
+nav {
+  background-color: rgba(0, 85, 153, 0.8);
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+section {
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  border-radius: 10px;
+  animation: slideUp 1s ease;
+  scroll-margin-top: 100px;
+}
+section h2{
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  border-radius: 10px;
+  animation: slideUp 1s ease;
+  scroll-margin-top: 100px;
+  text-align: center;
+}
+section h3{
+  padding: 0;
+  margin: 5px 0; 
+  border-radius: 0;
+  animation: none; 
+  scroll-margin-top: 100px;
+  text-align: center;
+}
+section p{
+  padding: 0;
+  margin: 5px 0; 
+  border-radius: 0;
+  animation: none;
+  scroll-margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#Beranda p{
+  font-size: 60px;
+}
+#kontak p {
+  padding: 0;
+  margin: 5px 0; 
+  border-radius: 0;
+  animation: none; 
+  scroll-margin-top: 100px;
+  text-align: center;
+}
+
+section img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 40px;
+  margin-bottom: 60px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  color: #ffcc00;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+form input[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgba(0, 0, 51, 0.8);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
