@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Bermuda</title>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-shipping-fast"></i> Gerbang Segitiga Bermuda</h1>
+    <p>Traveling ke Wilayah Misterius</p>
+  </header>
+
+ 
+  <nav>
+    <a href="#beranda"><i class="fas fa-home"></i> Beranda</a>
+    <a href="#tentang"><i class="fas fa-info-circle"></i> Tentang</a>
+    <a href="#layanan"><i class="fas fa-box-open"></i> Layanan</a>
+    <a href="#formulir"><i class="fas fa-edit"></i> Formulir</a>
+    <a href="#kontak"><i class="fas fa-phone"></i> Kontak</a>
+  </nav>
+
+ 
+  <section id="beranda">
+    <h2>Beranda</h2>
+    <p>Selamat datang di Gerbang Segitiga Bermuda.</p>
+    <img src="gmb/Laut.jpeg" alt="Laut" />
+  </section>
+
+  
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Gerbang Segitiga Bermuda adalah pelopor layanan ekspedisi dan perjalanan ekstrem pertama di dunia yang secara khusus menangani rute menuju wilayah Segitiga Bermuda — kawasan laut yang selama berabad-abad menyimpan misteri hilangnya kapal dan pesawat. Kami hadir bukan hanya sebagai penyedia jasa pengiriman, tetapi sebagai jembatan antara rasa penasaran manusia dan wilayah yang dikenal sebagai salah satu tempat paling enigmatis di planet ini.Didukung oleh tim profesional yang telah terlatih dalam penjelajahan laut dalam, navigasi udara ekstrem, serta prosedur keselamatan internasional, kami memastikan setiap perjalanan yang dilakukan melalui layanan kami berada dalam pengawasan ketat dan perlindungan terbaik. Kami bekerja sama dengan lembaga riset dan eksplorasi global untuk menjamin bahwa pengiriman maupun perjalanan klien kami berada di tangan yang tepat.Kami percaya bahwa setiap tempat memiliki cerita, dan Segitiga Bermuda adalah salah satu kisah terbesar yang belum selesai. Lewat layanan kami, Anda tidak hanya mengirim paket — Anda mengirimkan keberanian, semangat penjelajahan, dan keingintahuan yang tiada batas. Bergabunglah bersama kami untuk membuka gerbang menuju legenda yang selama ini hanya bisa Anda baca dalam buku sejarah dan teori konspirasi.Kami adalah penyedia jasa ekspedisi ekstrem pertama di dunia yang fokus pada pengiriman ke wilayah Segitiga Bermuda.</p>
+  </section>
+
+ 
+  <section id="layanan">
+    <h2>Layanan Pengantaran</h2>
+    <div class="Helikopter">
+      <img src="gmb/Helikopter.jpeg" alt="Helikopter" />
+      <h3>Helikopter</h3>
+      <p>Rp.10.000.000</p>
+    </div>
+    <div class="Pesawat">
+      <img src="gmb/Pesawat.jpeg" alt="Pesawat" />
+      <h3>Pesawat</h3>
+      <p>Rp.7.000.000</p>
+    </div>
+    <div class="Kapal Selam">
+      <img src="gmb/Kapal Selam.jpeg" alt="Kapal Selam" />
+      <h3>Kapal Selam</h3>
+      <p>Rp.5.000.000</p>
+    </div>
+        <div class="Kapal Pesiar">
+      <img src="gmb/Kapal.jpeg" alt="Kapal Pesiar" />
+      <h3>Kapal Pesiar</h3>
+      <p>Rp.7.000.000</p>
+    </div>
+  </section>
+
+  
+  <section id="formulir">
+    <h2>Formulir Pemesanan</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="tanggal">Tanggal Keberangkatan:</label>
+      <input type="date" id="tanggal" name="tanggal" required>
+
+      <label for="paspor">Unggah Paspor (PDF/JPG):</label>
+      <input type="file" id="paspor" name="paspor" accept=".pdf,.jpg,.jpeg,.png" required>
+
+      <label for="visa">Status Visa:</label>
+      <select id="visa" name="visa" required>
+        <option value="">-- Pilih Status --</option>
+        <option value="sudah">Sudah Ada</option>
+        <option value="proses">Sedang Diproses</option>
+        <option value="tidak">Tidak Diperlukan</option>
+      </select>
+
+      <label for="vaksin">Sertifikat Vaksin COVID-19:</label>
+      <input type="file" id="vaksin" name="vaksin" accept=".pdf,.jpg,.jpeg,.png">
+
+      <label for="tiket">Tiket Pesawat:</label>
+      <input type="file" id="tiket" name="tiket" accept=".pdf,.jpg,.jpeg,.png">
+
+      <label for="akomodasi">Bukti Akomodasi (Hotel/Airbnb):</label>
+      <input type="file" id="akomodasi" name="akomodasi" accept=".pdf,.jpg,.jpeg,.png">
+
+      <label for="asuransi">Asuransi Perjalanan:</label>
+      <select id="asuransi" name="asuransi" required>
+        <option value="">-- Pilih --</option>
+        <option value="sudah">Sudah Ada</option>
+        <option value="belum">Belum Ada</option>
+      </select>
+
+      <label for="kontak">Kontak Darurat (Nama & Nomor HP):</label>
+      <textarea id="kontak" name="kontak" rows="3" required></textarea>
+
+      <input type="submit" value="Kirim Formulir">
+    </form>
+  </section>
+
+
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>📍 Markas Terapung di Tengah Badai Atlantik</p>
+    <p>📧 Email: info@postalsegitigabermuda.com</p>
+    <p>📞 Teleportasi Darurat: +999-BERMUDA</p>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2025 Gerbang Segitiga Bermuda. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
